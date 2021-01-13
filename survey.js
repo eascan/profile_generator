@@ -16,15 +16,6 @@ let rl = readline.createInterface({
 //   rl.close();
 // })});
 
-const survey = function() {
-let answer1 = '';
-let answer2 = '';
-let answer3 = '';
-let answer4 = '';
-let answer5 = '';
-let answer6 = '';
-let answer7 = '';
-
 rl.question('What\'s your name? Nicknames are also acceptable :) ', (answer1) => {
   
 
@@ -56,11 +47,6 @@ rl.question('What\'s your name? Nicknames are also acceptable :) ', (answer1) =>
   })
   
 })
-
-console.log(answer1)
-
-}
-survey()
 
 
 
